@@ -13,8 +13,7 @@ const getWeather = (city) => {
 
 
             console.log(response)
-            // cloud_pct.innerHTML = response.cloud_pct
-            temp.innerHTML = response.temp
+            cloud_pct.innerHTML = response.cloud_pct
             temp2.innerHTML = response.temp
             feels_like.innerHTML = response.feels_like
             humidity.innerHTML = response.humidity
