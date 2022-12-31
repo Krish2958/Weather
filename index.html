@@ -11,6 +11,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="style.css">
     <title>My Weather App</title>
 </head>
 
@@ -19,7 +20,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
        
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Weather App </a>
+            <a class="navbar-brand" href="#"><img src="./favicon_io/favicon-32x32.png" > Weather App </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -53,7 +54,7 @@
                 </ul>
                 <form class="d-flex" role="search">
                     <input id="city" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit" id="submit">Search</button>
+                    <button class="btn btn-outline-primary" type="submit" id="submit">Search</button>
                 </form>
             </div>
         </div>
@@ -63,6 +64,7 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/601e33cc3b.js" crossorigin="anonymous"></script>
     <div class="container">
         <h1 class="my-4 text-center">Weather For <span id="cityName"></span></h1>
         <main>
@@ -73,7 +75,7 @@
                             <h4 class="my-0 fw-normal">Temperature</h4>
                         </div>
                         <div class="card-body">
-                            <h1 class="card-title pricing-card-title"><span id="temp2"></span><small class="text-muted fw-light"> &#8451</small>
+                            <h1 class="card-title pricing-card-title"><span><i class="fa-solid fa-temperature-half"></i> </span><span id="temp2"></span><small class="text-muted fw-light"> &#8451 </small>
                             </h1>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li>Cloud PCT is <span id="cloud_pct"></span></li>
@@ -91,7 +93,7 @@
                             <h4 class="my-0 fw-normal">Humidity Info</h4>
                         </div>
                         <div class="card-body">
-                            <h1 class="card-title pricing-card-title"><span id="humidity2"></span><small class="text-muted fw-light"> %</small>
+                            <h1 class="card-title pricing-card-title"><span><i class="fa-solid fa-droplet"></i> </span><span id="humidity2"></span><small class="text-muted fw-light"> %</small>
                             </h1>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li>Wind Degree is <span id="wind_degrees"></span></li>
@@ -109,7 +111,7 @@
                             <h4 class="my-0 fw-normal">Wind Info</h4>
                         </div>
                         <div class="card-body">
-                            <h1 class="card-title pricing-card-title"><span id="wind_speed2"></span><small class="text-muted fw-light"> km/hr</small>
+                            <h1 class="card-title pricing-card-title"><span><i class="fa-solid fa-wind"></i> </span><span id="wind_speed2"></span><small class="text-muted fw-light"> km/hr</small>
                             </h1>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li>Wind Speed is <span id="wind_speed"></span></li>
@@ -124,7 +126,7 @@
             </div>
 
             <h2 class="display-6 text-center mb-4">Weather of other common places</h2>
-
+            
             <div class="table-responsive">
                 <table class="table text-center">
                     <thead>
@@ -154,7 +156,7 @@
                             <td><span id="sunset4"></span></td>
                             <td><span id="temp4"></span></td>
                             <td><span id="wind_speed4"></span></td>
-                            <td><span id="wind_degrees4"></span></td>
+                            <td><span id="wind_degrees4"></span></td>     
                             
                             
                         </tr>
@@ -170,6 +172,7 @@
                             <td><span id="temp5"></span></td>
                             <td><span id="wind_speed5"></span></td>
                             <td><span id="wind_degrees5"></span></td>
+                           
                             
                         </tr>
                     </tbody>
@@ -187,6 +190,7 @@
                             <td><span id="temp6"></span></td>
                             <td><span id="wind_speed6"></span></td>
                             <td><span id="wind_degrees6"></span></td>
+                          
                         </tr>
                         <tr>
                             <th scope="row" class="text-start">Udaipur</th>
@@ -200,6 +204,7 @@
                             <td><span id="temp7"></span></td>
                             <td><span id="wind_speed7"></span></td>
                             <td><span id="wind_degrees7"></span></td>
+                            
                         </tr>
                         
                     </tbody>
@@ -209,13 +214,21 @@
     </div>
     <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
           <li class="nav-item"><a href="./about.html" class="nav-link px-2 text-muted">About This App </a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Weathers</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
 
         </ul>
+        <div class="text-center">
+            <h3 class="text-muted">
+           <a href="https://twitter.com/KrishMaheshwar8"> <i class="fa-brands fa-twitter"></i></a>
+           <a href= "https://github.com/Krish2958"> <i class ="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/krish-maheshwari-336664235/"><i class="fa-brands fa-linkedin"></i></a> 
+        </h3>
+        </div>
         <p class="text-center text-muted">© 2023 Krish Maheshwari, Inc</p>
       </footer>
+
 </body>
 </html>
