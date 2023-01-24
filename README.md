@@ -1,5 +1,5 @@
-# Weather
-My Weather App
+# My Weather App
+
 ## About
 This Weather app is made using HTML,CSS,JS & Rapid API by Api Ninjas.This Weather app is responsive in nature and can be accesed through any device by visiting this link :  [My Weather App](https://krish2958.github.io/Weather/index "My Weather App")
 
