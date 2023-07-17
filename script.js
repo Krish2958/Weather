@@ -34,7 +34,7 @@ submit.addEventListener("click", (e) => {
     getWeather(city.value)
 })
 
-
+getWeather("Delhi")
 
 const getWeather1 = () => {
 
@@ -132,5 +132,3 @@ var date = new Date(response.sunrise * 1000);
 function format_time(s) {
     return new Date(s * 1e3).toISOString().slice(-13, -5);
 }
-
-console.log(format_time(12345));
